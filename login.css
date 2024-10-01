@@ -32,9 +32,10 @@ body {
     padding: 0 0 0 1.7rem;
     font-size: larger;
 }
-label{
-    margin:0 0 0  9px;
+.box{
+  margin: 0 0 0 10px ;
 }
+
 .button{
     background-color: rgb(43, 173, 43);
     border:1px ;
@@ -44,11 +45,14 @@ label{
     height: 3.5rem;
     margin:2rem 0 0  14rem;
 }
+.label-text{
+  margin: 0 0 0 1px ;
+}
 .button:hover{
     background-color: rgb(60, 217, 60);
 }
 .link{
-    padding: 3px 0 0 0 ;
+    margin: 1px 0 0 1px ;
     text-decoration: none;
     color:rgb(23, 147, 23) ;
 }
