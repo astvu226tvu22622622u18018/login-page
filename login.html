@@ -8,26 +8,23 @@
     <link rel="stylesheet" href="/login.css">
 </head>
 
-<body>
 
-    <form class="main-card">
-        <h1>login</h1>
+<body class="head-card">
+    <form class="main-card" action="">
+        <div class="main-head">
+            <h1 class="main-head">login</h1>
+        </div>
         <div>
-            <input class="email" placeholder="Email" type="email">
-            <input class="password" placeholder="Password" type="password">
-            <div class="checkbox"> <input class="box" type="checkbox">
-                <label for="password"> show password</label>
+            <input required class="user-email" placeholder="Email" type="email">
+            <input required class="user-password" placeholder="Password" type="password">
+            <div class="permission"> <input required class="user-permission" type="checkbox">
+                <label class="user-permission2" for="password"> Show Password</label>
             </div>
             <button class="button">SIGN IN</button>
         </div>
         <div class="main-link">
-            <p>forgot <a class="link" href="#">Username/password?</a></p>
-            <p>Don't havean account?<a class="link" href="#">Sign up</a></p>
+            <p class="next-page">forgot <a class="link" href="#">Username/password?</a></p>
+            <p class="next-page">Don't havean account?<a class="link" href="#">Sign up</a></p>
         </div>
-
     </form>
-
-
 </body>
-
-</html>
